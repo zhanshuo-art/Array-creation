@@ -41,7 +41,7 @@ string extractIPC(const string& ipcField) {
 int main() {
     string filePath = "E:\\InnovationDataset\\DeepInnovationAI\\DeepPatentAI_1000.csv";
 
-    cout << "请输入需要分析的年份（用空格分隔）" << endl;
+    cout << "输入需要分析的年份（用空格分隔）" << endl;
     cout << "年份：";
     string yearInput;
     getline(cin, yearInput);
@@ -166,3 +166,4 @@ int main() {
 
     return 0;
 }
+
